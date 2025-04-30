@@ -7,24 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    <h3> In-Class Exercise (Quiz)</h3>
+    <h3> In-Class Exercise (Quiz7)</h3>
 
     <h2> Customer Contact Queue</h2>
     <form>
-    <label for ="Full Name" >Full Name:</label><br>
-    <input type="text" id="Full Name" name="Full Name" required>
+    <label for ="Name" >Name:</label>
+    <input type="text" id="Name" name="Name" ><br>
 
-    <label for="Age" >Age</label><br>
-    <input type="text" id="Age" Age="Age" required>
+    <label for="Age" >Age:</label>
+    <input type="number" id="Age" name="Age" ><br>
 
-    <label for="Email" >Email</label><br>
-    <input type="text" id="Email" Email="Email" required>
+    <label for="Email" >Email:</label>
+    <input type="email" id="Email" name="Email" ><br><br>
 
-    <button type ="button" onclick="Queue">Add to Queue</button>
-
-    <h2> Total in queue : </h2>
-
-    <button type ="button2" onclick="Queue">Display Queue</button>
+    <button type ="add" >Add to Queue</button>
+        <p id="message" style="color: red"></p>
+        <p id ="totalQueue"></p>
+    <button type ="display">Display Queue</button>
+    <div id = "list"></div>
     </form>
 </body>
 </html>
